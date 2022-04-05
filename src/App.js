@@ -1,5 +1,5 @@
 // Bootstrap
-import { Carousel, Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Card, Carousel, Col, Container, Nav, Navbar, NavDropdown, Row } from "react-bootstrap";
 // Personal Style
 import "./App.css";
 // temporary background photos
@@ -71,7 +71,101 @@ function App() {
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
-            
+
+            {/* Personal Cards */}
+            <Row xs={1} md={2} lg={4} className='g-4'>
+                <Col>
+                    <Card>
+                        <Card.Img className="rounded-circle" variant="top" src={mountains1} />
+                        <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                            <Card.Text>
+                                Short Description
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col>
+                    <Card>
+                        <Card.Img className="rounded-circle" variant="top" src={mountains1} />
+                        <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                            <Card.Text>
+                                Short Description
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col>
+                    <Card>
+                        <Card.Img className="rounded-circle" variant="top" src={mountains1} />
+                        <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                            <Card.Text>
+                                Short Description
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col>
+                    <Card>
+                        <Card.Img className="rounded-circle" variant="top" src={mountains1} />
+                        <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                            <Card.Text>
+                                Short Description
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+            </Row>
+            <Row xs={1} md={2} lg={4} className='g-4'>
+                <Col>
+                    <Card>
+                        <Card.Img className="rounded-circle" variant="top" src={mountains1} />
+                        <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                            <Card.Text>
+                                Short Description
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col>
+                    <Card>
+                        <Card.Img className="rounded-circle" variant="top" src={mountains1} />
+                        <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                            <Card.Text>
+                                Short Description
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col>
+                    <Card>
+                        <Card.Img className="rounded-circle" variant="top" src={mountains1} />
+                        <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                            <Card.Text>
+                                Short Description
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col>
+                    <Card>
+                        <Card.Img className="rounded-circle" variant="top" src={mountains1} />
+                        <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                            <Card.Text>
+                                Short Description
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+            </Row>
+
         </div>
     );
 }
