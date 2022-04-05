@@ -25,31 +25,47 @@ function App() {
             <Router>
                 <Navbar bg="light" expand="lg">
                     <Container>
-                        <Navbar.Brand href="#home">
+                        <Navbar.Brand href="/MARS-Feb2022-CohortCollaboration">
                             MARS - Feb. 2022 Cohort Group Portfolio
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="me-auto">
-                                <Nav.Link href="/">Home</Nav.Link>
+                                <Nav.Link href="/MARS-Feb2022-CohortCollaboration">Home</Nav.Link>
                                 <NavDropdown
-                                    title="Dropdown"
+                                    title="February 2022 Returners"
                                     id="basic-nav-dropdown"
                                 >
-                                    <NavDropdown.Item href="#action/3.1">
-                                        Action
+                                    <NavDropdown.Item href="/MARS-Feb2022-CohortCollaboration/Colton">
+                                        Colton W
                                     </NavDropdown.Item>
                                     <NavDropdown.Divider />
-                                    <NavDropdown.Item href="#action/3.2">
-                                        Another Action
+                                    <NavDropdown.Item href="">
+                                        Another Returner
                                     </NavDropdown.Item>
                                     <NavDropdown.Divider />
-                                    <NavDropdown.Item href="#action/3.3">
-                                        A Third Action
+                                    <NavDropdown.Item href="">
+                                        Another Returner
                                     </NavDropdown.Item>
                                     <NavDropdown.Divider />
-                                    <NavDropdown.Item href="#action/3.4">
-                                        After Divider
+                                    <NavDropdown.Item href="">
+                                        Another Returner
+                                    </NavDropdown.Item>
+                                    <NavDropdown.Divider />
+                                    <NavDropdown.Item href="">
+                                        Another Returner
+                                    </NavDropdown.Item>
+                                    <NavDropdown.Divider />
+                                    <NavDropdown.Item href="">
+                                        Another Returner
+                                    </NavDropdown.Item>
+                                    <NavDropdown.Divider />
+                                    <NavDropdown.Item href="">
+                                        Another Returner
+                                    </NavDropdown.Item>
+                                    <NavDropdown.Divider />
+                                    <NavDropdown.Item href="">
+                                        Another Returner
                                     </NavDropdown.Item>
                                 </NavDropdown>
                             </Nav>
@@ -61,7 +77,7 @@ function App() {
                     {/* I named my component 'Colton', but feel free name it whatever you like! */}
                     {/* DONT FORGET TO EDIT THE LINK ELEMENT NEAR YOUR CARD AS WELL */}
 
-                    <Route path="/Colton" element={<Colton />} />
+                    <Route path="/MARS-Feb2022-CohortCollaboration/Colton" element={<Colton />} />
                     {/* <Route path='/ReturnerName' element={<ReturnerComponent />} /> */}
                     {/* <Route path='/ReturnerName' element={<ReturnerComponent />} /> */}
                     {/* <Route path='/ReturnerName' element={<ReturnerComponent />} /> */}
@@ -122,133 +138,141 @@ function App() {
                     </Carousel.Item>
                 </Carousel>
 
+                <br />
+
                 {/* Personal Cards - Row 1 */}
-                <Row xs={1} md={2} lg={4} className="g-4">
-                    <Col>
-                        <Link to="/Colton">
-                            <Card>
-                                <Card.Img
-                                    className="rounded-circle"
-                                    variant="top"
-                                    src={mountains1}
-                                />
-                                <Card.Body>
-                                    <Card.Title>Card Title</Card.Title>
-                                    <Card.Text>Short Description</Card.Text>
-                                </Card.Body>
-                            </Card>
-                        </Link>
-                    </Col>
-                    <Col>
-                        {/* <Link to="/YourComponentName"> */}
-                            <Card>
-                                <Card.Img
-                                    className="rounded-circle"
-                                    variant="top"
-                                    src={mountains1}
-                                />
-                                <Card.Body>
-                                    <Card.Title>Card Title</Card.Title>
-                                    <Card.Text>Short Description</Card.Text>
-                                </Card.Body>
-                            </Card>
-                        {/* </Link> */}
-                    </Col>
-                    <Col>
-                        {/* <Link to="/YourComponentName"> */}
-                            <Card>
-                                <Card.Img
-                                    className="rounded-circle"
-                                    variant="top"
-                                    src={mountains1}
-                                />
-                                <Card.Body>
-                                    <Card.Title>Card Title</Card.Title>
-                                    <Card.Text>Short Description</Card.Text>
-                                </Card.Body>
-                            </Card>
-                        {/* </Link> */}
-                    </Col>
-                    <Col>
-                        {/* <Link to="/YourComponentName"> */}
-                            <Card>
-                                <Card.Img
-                                    className="rounded-circle"
-                                    variant="top"
-                                    src={mountains1}
-                                />
-                                <Card.Body>
-                                    <Card.Title>Card Title</Card.Title>
-                                    <Card.Text>Short Description</Card.Text>
-                                </Card.Body>
-                            </Card>
-                        {/* </Link> */}
-                    </Col>
-                </Row>
+                <Container>
+                    <Row xs={1} md={2} lg={4} className="g-4">
+                        <Col>
+                            <Link to="/MARS-Feb2022-CohortCollaboration/Colton">
+                                <Card>
+                                    <Card.Img
+                                        className="rounded-circle"
+                                        variant="top"
+                                        src={mountains1}
+                                    />
+                                    <Card.Body>
+                                        <Card.Title>Card Title</Card.Title>
+                                        <Card.Text>Short Description</Card.Text>
+                                    </Card.Body>
+                                </Card>
+                            </Link>
+                        </Col>
+                        <Col>
+                            {/* <Link to="/YourComponentName"> */}
+                                <Card>
+                                    <Card.Img
+                                        className="rounded-circle"
+                                        variant="top"
+                                        src={mountains1}
+                                    />
+                                    <Card.Body>
+                                        <Card.Title>Card Title</Card.Title>
+                                        <Card.Text>Short Description</Card.Text>
+                                    </Card.Body>
+                                </Card>
+                            {/* </Link> */}
+                        </Col>
+                        <Col>
+                            {/* <Link to="/YourComponentName"> */}
+                                <Card>
+                                    <Card.Img
+                                        className="rounded-circle"
+                                        variant="top"
+                                        src={mountains1}
+                                    />
+                                    <Card.Body>
+                                        <Card.Title>Card Title</Card.Title>
+                                        <Card.Text>Short Description</Card.Text>
+                                    </Card.Body>
+                                </Card>
+                            {/* </Link> */}
+                        </Col>
+                        <Col>
+                            {/* <Link to="/YourComponentName"> */}
+                                <Card>
+                                    <Card.Img
+                                        className="rounded-circle"
+                                        variant="top"
+                                        src={mountains1}
+                                    />
+                                    <Card.Body>
+                                        <Card.Title>Card Title</Card.Title>
+                                        <Card.Text>Short Description</Card.Text>
+                                    </Card.Body>
+                                </Card>
+                            {/* </Link> */}
+                        </Col>
+                    </Row>
+                </Container>
+
+                <br />
 
                 {/* Personal Cards - Row 2 */}
-                <Row xs={1} md={2} lg={4} className="g-4">
-                    <Col>
-                        {/* <Link to="/YourComponentName"> */}
-                            <Card>
-                                <Card.Img
-                                    className="rounded-circle"
-                                    variant="top"
-                                    src={mountains1}
-                                />
-                                <Card.Body>
-                                    <Card.Title>Card Title</Card.Title>
-                                    <Card.Text>Short Description</Card.Text>
-                                </Card.Body>
-                            </Card>
-                        {/* </Link> */}
-                    </Col>
-                    <Col>
-                        {/* <Link to="/YourComponentName"> */}
-                            <Card>
-                                <Card.Img
-                                    className="rounded-circle"
-                                    variant="top"
-                                    src={mountains1}
-                                />
-                                <Card.Body>
-                                    <Card.Title>Card Title</Card.Title>
-                                    <Card.Text>Short Description</Card.Text>
-                                </Card.Body>
-                            </Card>
-                        {/* </Link> */}
-                    </Col>
-                    <Col>
-                        {/* <Link to="/YourComponentName"> */}
-                            <Card>
-                                <Card.Img
-                                    className="rounded-circle"
-                                    variant="top"
-                                    src={mountains1}
-                                />
-                                <Card.Body>
-                                    <Card.Title>Card Title</Card.Title>
-                                    <Card.Text>Short Description</Card.Text>
-                                </Card.Body>
-                            </Card>
-                        {/* </Link> */}
-                    </Col>
-                    <Col>
-                        {/* <Link to="/YourComponentName"> */}
-                            <Card>
-                                <Card.Img
-                                    className="rounded-circle"
-                                    variant="top"
-                                    src={mountains1}
-                                />
-                                <Card.Body>
-                                    <Card.Title>Card Title</Card.Title>
-                                    <Card.Text>Short Description</Card.Text>
-                                </Card.Body>
-                            </Card>
-                        {/* </Link> */}
-                    </Col>
-                </Row>
+                <Container>
+                    <Row xs={1} md={2} lg={4} className="g-4">
+                        <Col>
+                            {/* <Link to="/YourComponentName"> */}
+                                <Card>
+                                    <Card.Img
+                                        className="rounded-circle"
+                                        variant="top"
+                                        src={mountains1}
+                                    />
+                                    <Card.Body>
+                                        <Card.Title>Card Title</Card.Title>
+                                        <Card.Text>Short Description</Card.Text>
+                                    </Card.Body>
+                                </Card>
+                            {/* </Link> */}
+                        </Col>
+                        <Col>
+                            {/* <Link to="/YourComponentName"> */}
+                                <Card>
+                                    <Card.Img
+                                        className="rounded-circle"
+                                        variant="top"
+                                        src={mountains1}
+                                    />
+                                    <Card.Body>
+                                        <Card.Title>Card Title</Card.Title>
+                                        <Card.Text>Short Description</Card.Text>
+                                    </Card.Body>
+                                </Card>
+                            {/* </Link> */}
+                        </Col>
+                        <Col>
+                            {/* <Link to="/YourComponentName"> */}
+                                <Card>
+                                    <Card.Img
+                                        className="rounded-circle"
+                                        variant="top"
+                                        src={mountains1}
+                                    />
+                                    <Card.Body>
+                                        <Card.Title>Card Title</Card.Title>
+                                        <Card.Text>Short Description</Card.Text>
+                                    </Card.Body>
+                                </Card>
+                            {/* </Link> */}
+                        </Col>
+                        <Col>
+                            {/* <Link to="/YourComponentName"> */}
+                                <Card>
+                                    <Card.Img
+                                        className="rounded-circle"
+                                        variant="top"
+                                        src={mountains1}
+                                    />
+                                    <Card.Body>
+                                        <Card.Title>Card Title</Card.Title>
+                                        <Card.Text>Short Description</Card.Text>
+                                    </Card.Body>
+                                </Card>
+                            {/* </Link> */}
+                        </Col>
+                    </Row>
+                </Container>
             </Router>
         </div>
     );
