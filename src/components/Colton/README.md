@@ -12,3 +12,5 @@ Any questions? Just ask and the group can help sort things out!
 2. The cards do not look great being wrapped in a <Link> tag. Maybe we can find another way to link instead of just wrapping the entire card with the <Link> tag. <a>'s or <button>'s maybe?
 
 3. The photos we use for the carousel need to be the same size. If they are not, the page resizes based on the size of the current photo.
+
+4. Some of the link, specifically in the dropdown and the top do not work for some reason. Clicking 'Colton' takes me to a 404 Error Page.
