@@ -1,18 +1,20 @@
 {
   "files": {
     "main.css": "/MARS-Feb2022-CohortCollaboration/static/css/main.de54d578.css",
-    "main.js": "/MARS-Feb2022-CohortCollaboration/static/js/main.c0173c7c.js",
+    "main.js": "/MARS-Feb2022-CohortCollaboration/static/js/main.f6e785ca.js",
     "static/js/787.42979270.chunk.js": "/MARS-Feb2022-CohortCollaboration/static/js/787.42979270.chunk.js",
+    "static/media/LynnR.jpg": "/MARS-Feb2022-CohortCollaboration/static/media/LynnR.75fb47a218ae5b190df5.jpg",
     "static/media/mountains3.jpg": "/MARS-Feb2022-CohortCollaboration/static/media/mountains3.cc96d9809bae7b60a394.jpg",
     "static/media/mountains2.jpg": "/MARS-Feb2022-CohortCollaboration/static/media/mountains2.e36cd61957d90d72f01c.jpg",
+    "static/media/career_in_tech.jpg": "/MARS-Feb2022-CohortCollaboration/static/media/career_in_tech.3f6e79f7c29cf280e31e.jpg",
     "static/media/mountains1.jpg": "/MARS-Feb2022-CohortCollaboration/static/media/mountains1.91c7fc0f15c9f3e9c75b.jpg",
     "index.html": "/MARS-Feb2022-CohortCollaboration/index.html",
     "main.de54d578.css.map": "/MARS-Feb2022-CohortCollaboration/static/css/main.de54d578.css.map",
-    "main.c0173c7c.js.map": "/MARS-Feb2022-CohortCollaboration/static/js/main.c0173c7c.js.map",
+    "main.f6e785ca.js.map": "/MARS-Feb2022-CohortCollaboration/static/js/main.f6e785ca.js.map",
     "787.42979270.chunk.js.map": "/MARS-Feb2022-CohortCollaboration/static/js/787.42979270.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.de54d578.css",
-    "static/js/main.c0173c7c.js"
+    "static/js/main.f6e785ca.js"
   ]
 }
