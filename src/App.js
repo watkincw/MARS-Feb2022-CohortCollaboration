@@ -10,10 +10,10 @@ import {
     Row,
 } from "react-bootstrap";
 import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
-import AboutLynn from "./AboutLynn";
+import AboutLynn from "./components/AboutLynn";
 // Personal Style
 import "./App.css";
-import Home from "./Home";
+import Home from "./components/Home";
 // Returner Components Import Section
 import Colton from "./components/Colton/Colton";
 // temporary background photos

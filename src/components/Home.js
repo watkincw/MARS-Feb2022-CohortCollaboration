@@ -13,16 +13,16 @@ import {
 import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
 
 // Personal Style
-import "./App.css";
+import "../App.css";
 
 // temporary background photos
-import mountains1 from "./images/mountains1.jpg";
-import mountains2 from "./images/mountains2.jpg";
-import mountains3 from "./images/mountains3.jpg";
-import technology from "./images/technology.jpg";
-import woman_at_desktop from "./images/woman_at_desktop.jpg";
-import career_in_tech from "./images/career_in_tech.jpg";
-import LynnR from "./images/LynnR.jpg"
+import mountains1 from "../images/mountains1.jpg";
+import mountains2 from "../images/mountains2.jpg";
+import mountains3 from "../images/mountains3.jpg";
+import technology from "../images/technology.jpg";
+import woman_at_desktop from "../images/woman_at_desktop.jpg";
+import career_in_tech from "../images/career_in_tech.jpg";
+import LynnR from "../images//LynnR.jpg"
 
 function Home(props) {
     return (
@@ -109,7 +109,7 @@ function Home(props) {
                                     <Link to="/MARS-Feb2022-CohortCollaboration/Lynn">
                                         <Card.Title>Lynn</Card.Title>
                                     </Link>
-                                        <Card.Text>Experience in medical imaging, telecom, and STEM education and projedt mangement</Card.Text>
+                                        <Card.Text>Experience in medical imaging, telecom, STEM education and project mangement</Card.Text>
                                     </Card.Body>
                                 </Card>
                             
