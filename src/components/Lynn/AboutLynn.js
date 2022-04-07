@@ -1,5 +1,5 @@
 import React from 'react';
-import LynnR from '../images/LynnR.jpg'
+import LynnR from '../../images/LynnR.jpg'
 
 function AboutLynn(props) {
     return (
