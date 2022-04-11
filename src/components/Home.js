@@ -23,6 +23,7 @@ import technology from "../images/technology.jpg";
 import woman_at_desktop from "../images/woman_at_desktop.jpg";
 import career_in_tech from "../images/career_in_tech.jpg";
 import LynnR from "../images//LynnR.jpg"
+import RichardF from "../images/RichardF.jpg"
 
 function Home(props) {
     return (
@@ -120,11 +121,11 @@ function Home(props) {
                                     <Card.Img
                                         className="rounded-circle"
                                         variant="top"
-                                        src={mountains1}
+                                        src={RichardF}
                                     />
                                     <Card.Body>
-                                        <Card.Title>Card Title</Card.Title>
-                                        <Card.Text>Short Description</Card.Text>
+                                        <Card.Title>Richard</Card.Title>
+                                        <Card.Text>Long time programmer who loves science and math.</Card.Text>
                                     </Card.Body>
                                 </Card>
                             {/* </Link> */}
