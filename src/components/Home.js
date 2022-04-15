@@ -25,6 +25,7 @@ import career_in_tech from "../images/career_in_tech.jpg";
 import LynnR from "../images//LynnR.jpg";
 import RichardF from "../images/RichardF.jpg";
 import HeidiW from "../images/HeidiW.jpg";
+import NagaK from "../images/Naga_Priya_Img_2.png";
 
 function Home(props) {
   return (
@@ -146,19 +147,21 @@ function Home(props) {
       <Container>
         <Row xs={1} md={2} lg={4} className="g-4">
           <Col>
-            {/* <Link to="/YourComponentName"> */}
+            
             <Card>
               <Card.Img
                 className="rounded-circle"
                 variant="top"
-                src={mountains1}
+                src={NagaK}
               />
               <Card.Body>
-                <Card.Title></Card.Title>
-                <Card.Text>Short Description</Card.Text>
+              <Link to="/MARS-Feb2022-CohortCollaboration/NagaPriya">
+                <Card.Title>Naga Priya K</Card.Title>
+                </Link>
+                <Card.Text>Full Stack Intern, Experienced in Software Development and Testing.</Card.Text>
               </Card.Body>
             </Card>
-            {/* </Link> */}
+            
           </Col>
           <Col>
             {/* <Link to="/YourComponentName"> */}
