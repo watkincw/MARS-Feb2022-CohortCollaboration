@@ -1,20 +1,27 @@
 {
   "files": {
-    "main.css": "/MARS-Feb2022-CohortCollaboration/static/css/main.de54d578.css",
-    "main.js": "/MARS-Feb2022-CohortCollaboration/static/js/main.f6e785ca.js",
+    "main.css": "/MARS-Feb2022-CohortCollaboration/static/css/main.bc857fca.css",
+    "main.js": "/MARS-Feb2022-CohortCollaboration/static/js/main.83186096.js",
     "static/js/787.42979270.chunk.js": "/MARS-Feb2022-CohortCollaboration/static/js/787.42979270.chunk.js",
     "static/media/LynnR.jpg": "/MARS-Feb2022-CohortCollaboration/static/media/LynnR.75fb47a218ae5b190df5.jpg",
+    "static/media/AnnieW.jpg": "/MARS-Feb2022-CohortCollaboration/static/media/AnnieW.b8c4df508eddb7ff552b.jpg",
     "static/media/mountains3.jpg": "/MARS-Feb2022-CohortCollaboration/static/media/mountains3.cc96d9809bae7b60a394.jpg",
+    "static/media/HeidiW.jpg": "/MARS-Feb2022-CohortCollaboration/static/media/HeidiW.332e20801512bf59643f.jpg",
+    "static/media/Banner_Image.jpg": "/MARS-Feb2022-CohortCollaboration/static/media/Banner_Image.e74892c63ae18b807a95.jpg",
+    "static/media/technology1.jpg": "/MARS-Feb2022-CohortCollaboration/static/media/technology1.45f732b276c14884e6b2.jpg",
+    "static/media/Banner_Image2.jpg": "/MARS-Feb2022-CohortCollaboration/static/media/Banner_Image2.0e87b6d9a8106355042e.jpg",
     "static/media/mountains2.jpg": "/MARS-Feb2022-CohortCollaboration/static/media/mountains2.e36cd61957d90d72f01c.jpg",
     "static/media/career_in_tech.jpg": "/MARS-Feb2022-CohortCollaboration/static/media/career_in_tech.3f6e79f7c29cf280e31e.jpg",
     "static/media/mountains1.jpg": "/MARS-Feb2022-CohortCollaboration/static/media/mountains1.91c7fc0f15c9f3e9c75b.jpg",
+    "static/media/Banner_Image1.jpg": "/MARS-Feb2022-CohortCollaboration/static/media/Banner_Image1.3c00abde04a16b05886d.jpg",
+    "static/media/RichardF.jpg": "/MARS-Feb2022-CohortCollaboration/static/media/RichardF.7a73db9a767eaaa15eb7.jpg",
     "index.html": "/MARS-Feb2022-CohortCollaboration/index.html",
-    "main.de54d578.css.map": "/MARS-Feb2022-CohortCollaboration/static/css/main.de54d578.css.map",
-    "main.f6e785ca.js.map": "/MARS-Feb2022-CohortCollaboration/static/js/main.f6e785ca.js.map",
+    "main.bc857fca.css.map": "/MARS-Feb2022-CohortCollaboration/static/css/main.bc857fca.css.map",
+    "main.83186096.js.map": "/MARS-Feb2022-CohortCollaboration/static/js/main.83186096.js.map",
     "787.42979270.chunk.js.map": "/MARS-Feb2022-CohortCollaboration/static/js/787.42979270.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de54d578.css",
-    "static/js/main.f6e785ca.js"
+    "static/css/main.bc857fca.css",
+    "static/js/main.83186096.js"
   ]
 }
