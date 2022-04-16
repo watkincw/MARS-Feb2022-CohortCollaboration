@@ -14,6 +14,7 @@ import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
 
 // Personal Style
 import "../App.css";
+import "../components/styles.css";
 
 // temporary background photos
 import mountains1 from "../images/mountains1.jpg";
@@ -22,16 +23,25 @@ import mountains3 from "../images/mountains3.jpg";
 import technology from "../images/technology.jpg";
 import woman_at_desktop from "../images/woman_at_desktop.jpg";
 import career_in_tech from "../images/career_in_tech.jpg";
+
+import technology1 from "../images/technology1.jpg";
+import Banner_Image from "../images/Banner_Image.jpg"
+import Banner_Image1 from "../images/Banner_Image1.jpg";
+import Banner_Image2 from "../images/Banner_Image2.jpg";
+
+
+
 import LynnR from "../images//LynnR.jpg";
 import RichardF from "../images/RichardF.jpg";
 import HeidiW from "../images/HeidiW.jpg";
+import AnnieW from "../images/AnnieW.jpg";
 
 function Home(props) {
   return (
     <div>
       <Carousel>
         <Carousel.Item>
-          <img className="d-block w-100" src={technology} alt="FirstCarousel" />
+          <img className="d-block w-100" src={technology1} alt="FirstCarousel" />
           <Carousel.Caption>
             <h3 style={{ color: "white" }}>MARS RETURNSHIP</h3>
             <p style={{ color: "white" }}>
@@ -46,20 +56,20 @@ function Home(props) {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={woman_at_desktop}
+            src={Banner_Image}
             alt="Second slide"
           />
           <Carousel.Caption>
             <h3 style={{ color: "black" }}>Second slide label</h3>
-            <p style={{ color: "black" }}>
+            {/* {<p style={{ color: "black" }}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
+            </p>} */}
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={career_in_tech}
+            src={Banner_Image1}
             alt="Third slide"
           />
           <Carousel.Caption>
@@ -69,7 +79,21 @@ function Home(props) {
             </p>
           </Carousel.Caption>
         </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={Banner_Image2}
+            alt="Fourth slide"
+          />
+          <Carousel.Caption>
+            <h3 style={{ color: "black" }}>Fourth slide label</h3>
+            {/* {<p style={{ color: "black" }}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>} */}
+          </Carousel.Caption>
+        </Carousel.Item>
       </Carousel>
+      
 
       <br />
       {/* Personal Cards - Row 1 */}
@@ -145,20 +169,18 @@ function Home(props) {
       {/* Personal Cards - Row 2 */}
       <Container>
         <Row xs={1} md={2} lg={4} className="g-4">
-          <Col>
-            {/* <Link to="/YourComponentName"> */}
+        <Col>
             <Card>
-              <Card.Img
-                className="rounded-circle"
-                variant="top"
-                src={mountains1}
-              />
+              <Card.Img className="rounded-circle" variant="top" src={AnnieW} />
               <Card.Body>
-                <Card.Title></Card.Title>
-                <Card.Text>Short Description</Card.Text>
+                <Link to="/MARS-Feb2022-CohortCollaboration/Annie">
+                  <Card.Title>Annie</Card.Title>
+                </Link>
+                <Card.Text>
+                  Worked as a Web Developer. Designed and Developed user friendly dynamic Webpages using PHP.
+                </Card.Text>
               </Card.Body>
             </Card>
-            {/* </Link> */}
           </Col>
           <Col>
             {/* <Link to="/YourComponentName"> */}
