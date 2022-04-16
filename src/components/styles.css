@@ -1,0 +1,14 @@
+.carousel-item{
+    height: 600px !important;
+    overflow: hidden;
+}
+.carousel-item img{
+    height: 35pc;
+}
+.card{
+    height: 400px;
+}
+.card img{
+    width: 100%;
+    height: 15pc;
+}
