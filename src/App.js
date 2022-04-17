@@ -26,7 +26,7 @@ function App() {
     return (
         <div className="App">
             <Router>
-                <Navbar bg="light" expand="lg">
+                <Navbar bg="success" expand="lg">
                     <Container>
                         <Navbar.Brand href="/MARS-Feb2022-CohortCollaboration">
                             MARS - Feb. 2022 Cohort Group Portfolio
