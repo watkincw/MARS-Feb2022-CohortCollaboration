@@ -35,6 +35,7 @@ import LynnR from "../images//LynnR.jpg";
 import RichardF from "../images/RichardF.jpg";
 import HeidiW from "../images/HeidiW.jpg";
 import AnnieW from "../images/AnnieW.jpg";
+import SelvapriyaA from "../images/SelvapriyaA.jpg";
 
 function Home(props) {
   return (
@@ -188,11 +189,11 @@ function Home(props) {
               <Card.Img
                 className="rounded-circle"
                 variant="top"
-                src={mountains1}
+                src={SelvapriyaA}
               />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>Short Description</Card.Text>
+                <Card.Title>Selvapriya</Card.Title>
+                <Card.Text>Experience in full stack web development</Card.Text>
               </Card.Body>
             </Card>
             {/* </Link> */}

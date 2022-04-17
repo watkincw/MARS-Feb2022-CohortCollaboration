@@ -11,6 +11,7 @@ import {
 } from "react-bootstrap";
 import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
 import AboutLynn from "./components/Lynn/AboutLynn";
+import AboutSelvapriya from "./components/Selvapriya/AboutSelvapriya";
 // Personal Style
 import "./App.css";
 import Home from "./components/Home";
@@ -60,7 +61,9 @@ function App() {
                     Annie W
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="">Another Returner</NavDropdown.Item>
+                  <NavDropdown.Item href="/MARS-Feb2022-CohortCollaboration/Selvapriya">
+                     Selvapriya A 
+                  </NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item href="">Another Returner</NavDropdown.Item>
                   <NavDropdown.Divider />
@@ -95,6 +98,10 @@ function App() {
           <Route 
             path='/MARS-Feb2022-CohortCollaboration/Annie' 
             element={<AboutAnnie />} 
+          /> 
+          <Route 
+            path='/MARS-Feb2022-CohortCollaboration/Selvapriya' 
+            element={<AboutSelvapriya />} 
           /> 
           {/* <Route path='/ReturnerName' element={<ReturnerComponent />} /> */}
           {/* <Route path='/ReturnerName' element={<ReturnerComponent />} /> */}
