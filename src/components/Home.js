@@ -14,7 +14,6 @@ import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
 
 // Personal Style
 import "../App.css";
-
 // temporary background photos
 import mountains1 from "../images/mountains1.jpg";
 import mountains2 from "../images/mountains2.jpg";

@@ -94,8 +94,7 @@ function App() {
                 </Routes>
                 {/* Maybe Add later */}
                 {/* <Redirect /> */}
-
-                
+          
 
                 
             </Router>
