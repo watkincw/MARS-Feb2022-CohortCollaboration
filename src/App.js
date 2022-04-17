@@ -14,7 +14,7 @@ import AboutLynn from "./components/Lynn/AboutLynn";
 // Personal Style
 import "./App.css";
 import Home from "./components/Home";
-// Returner Components Import Section
+// Returner Components
 import Colton from "./components/Colton/Colton";
 import AboutHeidi from "./components/Heidi/AboutHeidi";
 import AboutAnnie from "./components/Annie/AboutAnnie";
