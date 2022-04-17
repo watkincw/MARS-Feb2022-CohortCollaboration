@@ -30,7 +30,7 @@ import Banner_Image1 from "../images/Banner_Image1.jpg";
 import Banner_Image2 from "../images/Banner_Image2.jpg";
 
 
-
+import ColtonW from "../images/ColtonW.jpg"
 import LynnR from "../images//LynnR.jpg";
 import RichardF from "../images/RichardF.jpg";
 import HeidiW from "../images/HeidiW.jpg";
@@ -105,7 +105,7 @@ function Home(props) {
                 <Card.Img
                   className="rounded-circle"
                   variant="top"
-                  src={mountains1}
+                  src={ColtonW}
                 />
                 <Card.Body>
                   <Card.Title>Colton</Card.Title>
