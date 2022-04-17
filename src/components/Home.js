@@ -23,6 +23,7 @@ import technology from "../images/technology.jpg";
 import woman_at_desktop from "../images/woman_at_desktop.jpg";
 import career_in_tech from "../images/career_in_tech.jpg";
 import LynnR from "../images//LynnR.jpg"
+import SelvapriyaA from "../images/SelvapriyaA.jpg"
 
 function Home(props) {
     return (
@@ -120,11 +121,13 @@ function Home(props) {
                                     <Card.Img
                                         className="rounded-circle"
                                         variant="top"
-                                        src={mountains1}
+                                        src={SelvapriyaA}
                                     />
                                     <Card.Body>
-                                        <Card.Title>Card Title</Card.Title>
-                                        <Card.Text>Short Description</Card.Text>
+                                    <Link to="/MARS-Feb2022-CohortCollaboration/Selvapriya">    
+                                        <Card.Title>Selvapriya</Card.Title>
+                                    </Link>    
+                                        <Card.Text>Experience in full stack web application development</Card.Text>
                                     </Card.Body>
                                 </Card>
                             {/* </Link> */}

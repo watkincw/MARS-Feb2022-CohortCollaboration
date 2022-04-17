@@ -11,6 +11,7 @@ import {
 } from "react-bootstrap";
 import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
 import AboutLynn from "./components/Lynn/AboutLynn";
+import AboutSelvapriya from "./components/Selvapriya/AboutSelvapriya";
 // Personal Style
 import "./App.css";
 import Home from "./components/Home";
@@ -47,8 +48,8 @@ function App() {
                                         Lynn R
                                     </NavDropdown.Item>
                                     <NavDropdown.Divider />
-                                    <NavDropdown.Item href="">
-                                        Another Returner
+                                    <NavDropdown.Item href="/MARS-Feb2022-CohortCollaboration/Selvapriya">
+                                        Selvapriya A
                                     </NavDropdown.Item>
                                     <NavDropdown.Divider />
                                     <NavDropdown.Item href="">
@@ -83,6 +84,7 @@ function App() {
                     <Route path="/MARS-Feb2022-CohortCollaboration/home" element={<Home/>} />
                     <Route path="/MARS-Feb2022-CohortCollaboration/Colton" element={<Colton />} />
                     <Route path='/MARS-Feb2022-CohortCollaboration/Lynn' element={<AboutLynn />} />
+                    <Route path = "/MARS-Feb2022-CohortCollaboration/Selvapriya" element={<AboutSelvapriya />} />
                     {/* <Route path='/ReturnerName' element={<ReturnerComponent />} /> */}
                     {/* <Route path='/ReturnerName' element={<ReturnerComponent />} /> */}
                     {/* <Route path='/ReturnerName' element={<ReturnerComponent />} /> */}
