@@ -22,7 +22,6 @@ import mountains1 from "./images/mountains1.jpg";
 import mountains2 from "./images/mountains2.jpg";
 import mountains3 from "./images/mountains3.jpg";
 
-
 function App() {
     return (
         <div className="App">

@@ -1,7 +1,7 @@
 import React from 'react';
 import SelvapriyaA from '../../images/SelvapriyaA.jpg'
 
-function AboutSelvapriya(props) {
+function About(props) {
     return (
         <div style = {{backgroundColor: "#122240", padding: "30px"}}>
             <h1 style = {{fontSize: "20px", color: "#c0a98e"}}>Welcome to my Page</h1>
@@ -17,4 +17,4 @@ function AboutSelvapriya(props) {
        </div>      
     );
 }
-export default AboutSelvapriya;
+export default About;

@@ -11,7 +11,6 @@ import {
     Row,
 } from "react-bootstrap";
 import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
-
 // Personal Style
 import "../App.css";
 // temporary background photos
