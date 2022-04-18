@@ -11,14 +11,15 @@ import {
 } from "react-bootstrap";
 import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
 import AboutLynn from "./components/Lynn/AboutLynn";
+import AboutSelvapriya from "./components/Selvapriya/AboutSelvapriya";
 // Personal Style
 import "./App.css";
 import Home from "./components/Home";
-// Returner Components Import Section
+// Returner Components
 import Colton from "./components/Colton/Colton";
 import AboutHeidi from "./components/Heidi/AboutHeidi";
-
 import AboutNaga from "./components/NagaPriya/AboutNaga";
+import AboutAnnie from "./components/Annie/AboutAnnie";
 // temporary background photos
 import mountains1 from "./images/mountains1.jpg";
 import mountains2 from "./images/mountains2.jpg";
@@ -55,13 +56,17 @@ function App() {
                     Naga Priya
                     </NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="/MARS-Feb2022-CohortCollaboration/Lynn">
+                  <NavDropdown.Item href="/MARS-Feb2022-CohortCollaboration/Heidi">
                     Heidi W
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="">Another Returner</NavDropdown.Item>
+                  <NavDropdown.Item href="/MARS-Feb2022-CohortCollaboration/Annie">
+                    Annie W
+                  </NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="">Another Returner</NavDropdown.Item>
+                  <NavDropdown.Item href="/MARS-Feb2022-CohortCollaboration/Selvapriya">
+                     Selvapriya A 
+                  </NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item href="">Another Returner</NavDropdown.Item>
                   <NavDropdown.Divider />
@@ -93,11 +98,21 @@ function App() {
             path="/MARS-Feb2022-CohortCollaboration/Heidi"
             element={<AboutHeidi />}
           />
+          {/* <Route path='/ReturnerName' element={<ReturnerComponent />} /> */}
+
+          <Route 
+            path='/MARS-Feb2022-CohortCollaboration/Annie' 
+            element={<AboutAnnie />} 
+          /> 
+          <Route 
+            path='/MARS-Feb2022-CohortCollaboration/Selvapriya' 
+            element={<AboutSelvapriya />} 
+          /> 
           <Route
             path="/MARS-Feb2022-CohortCollaboration/NagaPriya"
             element={<AboutNaga/>}
             />
-          {/* <Route path='/ReturnerName' element={<ReturnerComponent />} /> */}
+
           {/* <Route path='/ReturnerName' element={<ReturnerComponent />} /> */}
           {/* <Route path='/ReturnerName' element={<ReturnerComponent />} /> */}
           {/* <Route path='/ReturnerName' element={<ReturnerComponent />} /> */}
