@@ -52,10 +52,6 @@ function App() {
                     Lynn R
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="/MARS-Feb2022-CohortCollaboration/NagaPriya">
-                    Naga Priya
-                    </NavDropdown.Item>
-                  <NavDropdown.Divider />
                   <NavDropdown.Item href="/MARS-Feb2022-CohortCollaboration/Heidi">
                     Heidi W
                   </NavDropdown.Item>
@@ -63,6 +59,10 @@ function App() {
                   <NavDropdown.Item href="/MARS-Feb2022-CohortCollaboration/Annie">
                     Annie W
                   </NavDropdown.Item>
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item href="/MARS-Feb2022-CohortCollaboration/NagaPriya">
+                    Naga Priya
+                    </NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item href="/MARS-Feb2022-CohortCollaboration/Selvapriya">
                      Selvapriya A 

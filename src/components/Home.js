@@ -172,6 +172,20 @@ function Home(props) {
       {/* Personal Cards - Row 2 */}
       <Container>
         <Row xs={1} md={2} lg={4} className="g-4">
+          
+        <Col>
+            <Card>
+              <Card.Img className="rounded-circle" variant="top" src={AnnieW} />
+              <Card.Body>
+                <Link to="/MARS-Feb2022-CohortCollaboration/Annie">
+                  <Card.Title>Annie</Card.Title>
+                </Link>
+                <Card.Text>
+                  Worked as a Web Developer. Designed and Developed user friendly dynamic Webpages using PHP.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
           <Col>
             
             <Card>
@@ -187,19 +201,7 @@ function Home(props) {
                 <Card.Text>Full Stack Intern, Experienced in Software Development and Testing.</Card.Text>
               </Card.Body>
             </Card>
-        <Col>
-            <Card>
-              <Card.Img className="rounded-circle" variant="top" src={AnnieW} />
-              <Card.Body>
-                <Link to="/MARS-Feb2022-CohortCollaboration/Annie">
-                  <Card.Title>Annie</Card.Title>
-                </Link>
-                <Card.Text>
-                  Worked as a Web Developer. Designed and Developed user friendly dynamic Webpages using PHP.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
+            </Col>
           <Col>
             {/* <Link to="/YourComponentName"> */}
             <Card>
@@ -233,21 +235,7 @@ function Home(props) {
             </Card>
             {/* </Link> */}
           </Col>
-          <Col>
-            {/* <Link to="/YourComponentName"> */}
-            <Card>
-              <Card.Img
-                className="rounded-circle"
-                variant="top"
-                src={mountains1}
-              />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>Short Description</Card.Text>
-              </Card.Body>
-            </Card>
-            {/* </Link> */}
-          </Col>
+          
         </Row>
       </Container>
     </div>
