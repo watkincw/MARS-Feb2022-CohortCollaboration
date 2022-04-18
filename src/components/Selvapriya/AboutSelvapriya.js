@@ -1,6 +1,6 @@
 import React from 'react';
 import SelvapriyaA from '../../images/SelvapriyaA.jpg'
-import './AboutSelvapriya.css';
+//import './AboutSelvapriya.css';
 
 function AboutSelvapriya(props) {
     return (
