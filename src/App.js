@@ -18,6 +18,7 @@ import Home from "./components/Home";
 // Returner Components
 import Colton from "./components/Colton/Colton";
 import AboutHeidi from "./components/Heidi/AboutHeidi";
+import AboutNaga from "./components/NagaPriya/AboutNaga";
 import AboutAnnie from "./components/Annie/AboutAnnie";
 // temporary background photos
 import mountains1 from "./images/mountains1.jpg";
@@ -51,7 +52,9 @@ function App() {
                     Lynn R
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="">Another Returner</NavDropdown.Item>
+                  <NavDropdown.Item href="/MARS-Feb2022-CohortCollaboration/NagaPriya">
+                    Naga Priya
+                    </NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item href="/MARS-Feb2022-CohortCollaboration/Heidi">
                     Heidi W
@@ -95,6 +98,8 @@ function App() {
             path="/MARS-Feb2022-CohortCollaboration/Heidi"
             element={<AboutHeidi />}
           />
+          {/* <Route path='/ReturnerName' element={<ReturnerComponent />} /> */}
+
           <Route 
             path='/MARS-Feb2022-CohortCollaboration/Annie' 
             element={<AboutAnnie />} 
@@ -103,6 +108,11 @@ function App() {
             path='/MARS-Feb2022-CohortCollaboration/Selvapriya' 
             element={<AboutSelvapriya />} 
           /> 
+          <Route
+            path="/MARS-Feb2022-CohortCollaboration/NagaPriya"
+            element={<AboutNaga/>}
+            />
+
           {/* <Route path='/ReturnerName' element={<ReturnerComponent />} /> */}
           {/* <Route path='/ReturnerName' element={<ReturnerComponent />} /> */}
           {/* <Route path='/ReturnerName' element={<ReturnerComponent />} /> */}

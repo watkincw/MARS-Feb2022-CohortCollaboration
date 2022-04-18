@@ -34,8 +34,10 @@ import ColtonW from "../images/ColtonW.jpg"
 import LynnR from "../images//LynnR.jpg";
 import RichardF from "../images/RichardF.jpg";
 import HeidiW from "../images/HeidiW.jpg";
+import NagaK from "../images/Naga_Priya_Img_2.png";
 import AnnieW from "../images/AnnieW.jpg";
 import SelvapriyaA from "../images/SelvapriyaA.jpg";
+
 
 function Home(props) {
   return (
@@ -170,6 +172,21 @@ function Home(props) {
       {/* Personal Cards - Row 2 */}
       <Container>
         <Row xs={1} md={2} lg={4} className="g-4">
+          <Col>
+            
+            <Card>
+              <Card.Img
+                className="rounded-circle"
+                variant="top"
+                src={NagaK}
+              />
+              <Card.Body>
+              <Link to="/MARS-Feb2022-CohortCollaboration/NagaPriya">
+                <Card.Title>Naga Priya K</Card.Title>
+                </Link>
+                <Card.Text>Full Stack Intern, Experienced in Software Development and Testing.</Card.Text>
+              </Card.Body>
+            </Card>
         <Col>
             <Card>
               <Card.Img className="rounded-circle" variant="top" src={AnnieW} />
