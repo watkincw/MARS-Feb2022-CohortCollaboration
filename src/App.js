@@ -26,6 +26,7 @@ import mountains2 from "./images/mountains2.jpg";
 import mountains3 from "./images/mountains3.jpg";
 
 function App() {
+
   return (
     <div className="App">
       <Router>
@@ -112,6 +113,7 @@ function App() {
             path="/MARS-Feb2022-CohortCollaboration/NagaPriya"
             element={<AboutNaga/>}
             />
+
 
           {/* <Route path='/ReturnerName' element={<ReturnerComponent />} /> */}
           {/* <Route path='/ReturnerName' element={<ReturnerComponent />} /> */}

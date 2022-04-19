@@ -11,9 +11,9 @@ import {
   Row,
 } from "react-bootstrap";
 import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
-
 // Personal Style
 import "../App.css";
+
 import "../components/styles.css";
 
 // temporary background photos
@@ -37,7 +37,6 @@ import HeidiW from "../images/HeidiW.jpg";
 import NagaK from "../images/Naga_Priya_Img_2.png";
 import AnnieW from "../images/AnnieW.jpg";
 import SelvapriyaA from "../images/SelvapriyaA.jpg";
-
 
 function Home(props) {
   return (
@@ -97,6 +96,7 @@ function Home(props) {
         </Carousel.Item>
       </Carousel>
       
+
 
       <br />
       {/* Personal Cards - Row 1 */}
@@ -166,6 +166,7 @@ function Home(props) {
           </Col>
         </Row>
       </Container>
+
 
       <br />
 
