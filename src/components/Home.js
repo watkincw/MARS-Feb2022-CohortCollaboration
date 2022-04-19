@@ -125,7 +125,7 @@ function Home(props) {
                                     <Link to="/MARS-Feb2022-CohortCollaboration/Selvapriya">    
                                         <Card.Title>Selvapriya</Card.Title>
                                     </Link>    
-                                        <Card.Text>Experience in full stack web application development</Card.Text>
+                                        <Card.Text>Experience in full stack web application development.</Card.Text>
                                     </Card.Body>
                                 </Card>
                             {/* </Link> */}
