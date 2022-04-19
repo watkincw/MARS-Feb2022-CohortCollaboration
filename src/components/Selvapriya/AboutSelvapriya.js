@@ -1,6 +1,7 @@
 import React from 'react';
 import SelvapriyaA from '../../images/SelvapriyaA.jpg'
 
+
 function AboutSelvapriya(props) {
     return (
         <div style = {{backgroundColor: "#122240", padding: "30px"}}>
@@ -12,9 +13,11 @@ function AboutSelvapriya(props) {
        I am passionate about learning new programming languages. I enjoy working on collaborative teams.
       </p>
       <p style ={{ fontSize: "10px", color: "#c0a98e"}}>
+
           Copyright &copy; 2022
       </p>
        </div>      
     );
 }
+
 export default AboutSelvapriya;
