@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/MARS-Feb2022-CohortCollaboration/static/css/main.bc857fca.css",
-    "main.js": "/MARS-Feb2022-CohortCollaboration/static/js/main.83186096.js",
+    "main.js": "/MARS-Feb2022-CohortCollaboration/static/js/main.f276482a.js",
     "static/js/787.42979270.chunk.js": "/MARS-Feb2022-CohortCollaboration/static/js/787.42979270.chunk.js",
+    "static/media/Naga_Priya_Img_2.png": "/MARS-Feb2022-CohortCollaboration/static/media/Naga_Priya_Img_2.3621490fc206e540b3a6.png",
+    "static/media/ColtonW.jpg": "/MARS-Feb2022-CohortCollaboration/static/media/ColtonW.ccf8539d1b4a5342017c.jpg",
     "static/media/LynnR.jpg": "/MARS-Feb2022-CohortCollaboration/static/media/LynnR.75fb47a218ae5b190df5.jpg",
     "static/media/AnnieW.jpg": "/MARS-Feb2022-CohortCollaboration/static/media/AnnieW.b8c4df508eddb7ff552b.jpg",
     "static/media/mountains3.jpg": "/MARS-Feb2022-CohortCollaboration/static/media/mountains3.cc96d9809bae7b60a394.jpg",
@@ -14,14 +16,15 @@
     "static/media/career_in_tech.jpg": "/MARS-Feb2022-CohortCollaboration/static/media/career_in_tech.3f6e79f7c29cf280e31e.jpg",
     "static/media/mountains1.jpg": "/MARS-Feb2022-CohortCollaboration/static/media/mountains1.91c7fc0f15c9f3e9c75b.jpg",
     "static/media/Banner_Image1.jpg": "/MARS-Feb2022-CohortCollaboration/static/media/Banner_Image1.3c00abde04a16b05886d.jpg",
+    "static/media/SelvapriyaA.jpg": "/MARS-Feb2022-CohortCollaboration/static/media/SelvapriyaA.e1a1d368238a98ea84a8.jpg",
     "static/media/RichardF.jpg": "/MARS-Feb2022-CohortCollaboration/static/media/RichardF.7a73db9a767eaaa15eb7.jpg",
     "index.html": "/MARS-Feb2022-CohortCollaboration/index.html",
     "main.bc857fca.css.map": "/MARS-Feb2022-CohortCollaboration/static/css/main.bc857fca.css.map",
-    "main.83186096.js.map": "/MARS-Feb2022-CohortCollaboration/static/js/main.83186096.js.map",
+    "main.f276482a.js.map": "/MARS-Feb2022-CohortCollaboration/static/js/main.f276482a.js.map",
     "787.42979270.chunk.js.map": "/MARS-Feb2022-CohortCollaboration/static/js/787.42979270.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bc857fca.css",
-    "static/js/main.83186096.js"
+    "static/js/main.f276482a.js"
   ]
 }
