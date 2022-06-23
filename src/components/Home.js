@@ -10,7 +10,7 @@ import {
   NavDropdown,
   Row,
 } from "react-bootstrap";
-import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Link, Routes, Route } from "react-router-dom";
 // Personal Style
 import "../App.css";
 
@@ -103,7 +103,7 @@ function Home(props) {
       <Container>
         <Row xs={1} md={2} lg={4} className="g-4">
           <Col>
-            <Link to="/MARS-Feb2022-CohortCollaboration/Colton">
+            <Link to="/Colton">
               <Card>
                 <Card.Img
                   className="rounded-circle"
@@ -121,7 +121,7 @@ function Home(props) {
             <Card>
               <Card.Img className="rounded-circle" variant="top" src={LynnR} />
               <Card.Body>
-                <Link to="/MARS-Feb2022-CohortCollaboration/Lynn">
+                <Link to="/Lynn">
                   <Card.Title>Lynn</Card.Title>
                 </Link>
                 <Card.Text>
@@ -153,7 +153,7 @@ function Home(props) {
             <Card>
               <Card.Img className="rounded-circle" variant="top" src={HeidiW} />
               <Card.Body>
-                <Link to="/MARS-Feb2022-CohortCollaboration/Heidi">
+                <Link to="/Heidi">
                   <Card.Title>Heidi</Card.Title>
                 </Link>
                 <Card.Text>
@@ -178,7 +178,7 @@ function Home(props) {
             <Card>
               <Card.Img className="rounded-circle" variant="top" src={AnnieW} />
               <Card.Body>
-                <Link to="/MARS-Feb2022-CohortCollaboration/Annie">
+                <Link to="/Annie">
                   <Card.Title>Annie</Card.Title>
                 </Link>
                 <Card.Text>
@@ -196,7 +196,7 @@ function Home(props) {
                 src={NagaK}
               />
               <Card.Body>
-              <Link to="/MARS-Feb2022-CohortCollaboration/NagaPriya">
+              <Link to="/NagaPriya">
                 <Card.Title>Naga Priya K</Card.Title>
                 </Link>
                 <Card.Text>Full Stack Intern, Experienced in Software Development and Testing.</Card.Text>
@@ -212,7 +212,7 @@ function Home(props) {
                 src={SelvapriyaA}
               />
               <Card.Body>
-              <Link to="/MARS-Feb2022-CohortCollaboration/Selvapriya">
+              <Link to="/Selvapriya">
              
                 <Card.Title>Selvapriya</Card.Title>
                 </Link>
