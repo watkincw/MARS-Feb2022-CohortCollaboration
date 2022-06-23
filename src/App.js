@@ -57,15 +57,15 @@ function App() {
                     Heidi W
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="/MARS-Feb2022-CohortCollaboration/Annie">
+                  <NavDropdown.Item href="./#/Annie">
                     Annie W
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="/MARS-Feb2022-CohortCollaboration/NagaPriya">
+                  <NavDropdown.Item href="./#/NagaPriya">
                     Naga Priya
                     </NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="/MARS-Feb2022-CohortCollaboration/Selvapriya">
+                  <NavDropdown.Item href="./#/Selvapriya">
                      Selvapriya A 
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
