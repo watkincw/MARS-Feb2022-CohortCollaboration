@@ -9,7 +9,7 @@ import {
   NavDropdown,
   Row,
 } from "react-bootstrap";
-import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Link, Routes, Route } from "react-router-dom";
 import AboutLynn from "./components/Lynn/AboutLynn";
 import AboutSelvapriya from "./components/Selvapriya/AboutSelvapriya";
 // Personal Style
@@ -32,28 +32,28 @@ function App() {
       <Router>
         <Navbar bg="light" expand="lg">
           <Container>
-            <Navbar.Brand href="/MARS-Feb2022-CohortCollaboration">
+            <Navbar.Brand href="/MARS-Feb2022-CohortCollaboration/">
               MARS - Feb. 2022 Cohort Group Portfolio
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                <Nav.Link href="/MARS-Feb2022-CohortCollaboration">
+                <Nav.Link href="/MARS-Feb2022-CohortCollaboration/">
                   Home
                 </Nav.Link>
                 <NavDropdown
                   title="February 2022 Returners"
                   id="basic-nav-dropdown"
                 >
-                  <NavDropdown.Item href="/mars-feb2022-cohortcollaboration/Colton">
+                  <NavDropdown.Item href="./#/Colton">
                     Colton W
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="/MARS-Feb2022-CohortCollaboration/Lynn">
+                  <NavDropdown.Item href="./#/Lynn">
                     Lynn R
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="/MARS-Feb2022-CohortCollaboration/Heidi">
+                  <NavDropdown.Item href="./#/Heidi">
                     Heidi W
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
@@ -83,34 +83,34 @@ function App() {
           {/* DONT FORGET TO EDIT THE LINK ELEMENT NEAR YOUR CARD AS WELL */}
           <Route path="*" element={<Home />} />
           <Route
-            path="/MARS-Feb2022-CohortCollaboration/home"
+            path="/home"
             element={<Home />}
           />
           <Route
-            path="/MARS-Feb2022-CohortCollaboration/Colton"
+            path="/Colton"
             element={<Colton />}
           />
           <Route
-            path="/MARS-Feb2022-CohortCollaboration/Lynn"
+            path="/Lynn"
             element={<AboutLynn />}
           />
           {/* <Route path='/ReturnerName' element={<ReturnerComponent />} /> */}
           <Route
-            path="/MARS-Feb2022-CohortCollaboration/Heidi"
+            path="/Heidi"
             element={<AboutHeidi />}
           />
           {/* <Route path='/ReturnerName' element={<ReturnerComponent />} /> */}
 
           <Route 
-            path='/MARS-Feb2022-CohortCollaboration/Annie' 
+            path='/Annie' 
             element={<AboutAnnie />} 
           /> 
           <Route 
-            path='/MARS-Feb2022-CohortCollaboration/Selvapriya' 
+            path='/Selvapriya' 
             element={<AboutSelvapriya />} 
           /> 
           <Route
-            path="/MARS-Feb2022-CohortCollaboration/NagaPriya"
+            path="/NagaPriya"
             element={<AboutNaga/>}
             />
 
